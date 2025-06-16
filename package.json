@@ -7,10 +7,11 @@
 		"dev": "next dev --turbopack",
 		"build": "tsc -b && next build",
 		"start": "next start",
+		"typecheck": "tsc --noEmit",
 		"biome": "biome check",
 		"biome:fix": "biome check --write",
 		"storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+		"storybook:build": "storybook build"
 	},
 	"dependencies": {
 		"next": "15.3.3",
