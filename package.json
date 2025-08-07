@@ -4,9 +4,10 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "next dev --turbopack",
-		"build": "tsc -b && next build",
+		"dev": "cmk && next dev --turbopack",
+		"build": "cmk && tsc -b && next build",
 		"start": "next start",
+		"cmk": "cmk",
 		"typecheck": "tsc --noEmit",
 		"biome": "biome check",
 		"biome:fix": "biome check --write",
@@ -22,6 +23,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.1.3",
+		"@css-modules-kit/codegen": "0.4.1",
 		"@storybook/nextjs-vite": "9.1.1",
 		"@testing-library/jest-dom": "6.6.4",
 		"@testing-library/react": "16.3.0",
