@@ -1,5 +1,6 @@
 .next
 coverage
+generated
 node_modules
 storybook-static
 next-env.d.ts
