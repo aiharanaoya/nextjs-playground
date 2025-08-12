@@ -1,6 +1,6 @@
 # Next.js Playground
 
-A modern Next.js development environment with TypeScript and comprehensive tooling for building, testing, and documenting React applications.
+A Next.js component development playground built with TypeScript. This environment is designed for experimenting with various technologies and building UI components with comprehensive tooling support.
 
 ## Features
 
