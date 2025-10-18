@@ -8,10 +8,5 @@ export default defineConfig({
 	test: {
 		environment: 'happy-dom',
 		setupFiles: './src/testing/setupTesting.ts',
-		coverage: {
-			enabled: true,
-			include: ['src/components/**/*.{ts,tsx}'],
-			exclude: ['src/**/*.stories.{ts,tsx}', 'src/**/*.test.{ts,tsx}'],
-		},
 	},
 });
