@@ -5,6 +5,7 @@
 		"includes": [
 			"**/*",
 			"!**/.next",
+			"!**/generated",
 			"!**/node_modules",
 			"!**/storybook-static",
 			"!**/tsconfig.tsbuildinfo"

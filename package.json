@@ -7,10 +7,10 @@
 		"dev": "cmk && next dev --turbopack",
 		"build": "cmk && tsc -b && next build",
 		"start": "next start",
-		"cmk": "cmk",
+		"cssdts": "cmk",
 		"typecheck": "tsc --noEmit",
-		"biome": "biome check",
-		"biome:fix": "biome check --write",
+		"lint": "biome check",
+		"lint:fix": "biome check --write",
 		"test": "vitest run",
 		"storybook": "storybook dev -p 6006",
 		"storybook:build": "storybook build"
