@@ -4,7 +4,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "cmk && next dev --turbopack",
+		"dev": "cmk && next dev",
 		"build": "cmk && tsc -b && next build",
 		"start": "next start",
 		"cssdts": "cmk",
