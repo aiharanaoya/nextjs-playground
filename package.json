@@ -22,7 +22,7 @@
 		"react-dom": "19.2.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.3.12",
+		"@biomejs/biome": "2.3.13",
 		"@css-modules-kit/codegen": "0.8.1",
 		"@storybook/nextjs-vite": "10.2.0",
 		"@testing-library/jest-dom": "6.9.1",
