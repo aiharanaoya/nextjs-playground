@@ -1,21 +1,15 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignoreUnknown": false,
 		"includes": [
 			"**/*",
 			"!**/.next",
-			"!**/generated",
 			"!**/node_modules",
 			"!**/storybook-static",
 			"!**/tsconfig.tsbuildinfo"
 		]
 	},
-	"formatter": {
-		"enabled": true
-	},
 	"linter": {
-		"enabled": true,
 		"rules": {
 			"recommended": true
 		}
@@ -26,15 +20,8 @@
 		}
 	},
 	"css": {
-		"parser": {
-			"cssModules": true
-		},
 		"formatter": {
-			"enabled": true,
 			"quoteStyle": "single"
-		},
-		"linter": {
-			"enabled": true
 		}
 	},
 	"assist": {

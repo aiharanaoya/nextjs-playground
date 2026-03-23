@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
 import '@/styles/global.css';
-import 'destyle.css';
 
 export const metadata: Metadata = {
-	title: 'Next.js Playground',
-	description: 'Next.js Playground',
+	title: 'Next.js App',
+	description: 'Next.js App',
 };
 
 export default function RootLayout({

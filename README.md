@@ -1,1 +1,1 @@
-# Next.js Playground
+# Next.js App
