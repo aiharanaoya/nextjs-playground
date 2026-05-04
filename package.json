@@ -20,7 +20,7 @@
 		"react-dom": "19.2.5"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.4.13",
+		"@biomejs/biome": "2.4.14",
 		"@storybook/nextjs-vite": "10.3.6",
 		"@tailwindcss/postcss": "4.2.4",
 		"@testing-library/jest-dom": "6.9.1",
