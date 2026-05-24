@@ -3,3 +3,4 @@ pmOnFail: download
 allowBuilds:
   "@swc/core": true
   esbuild: true
+  sharp: true
